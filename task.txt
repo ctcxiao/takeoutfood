@@ -1,0 +1,90 @@
+1#input
+1.order列表：[order:string, order:string,…]
+2.item列表：[{
+	id:string,
+	name:string,
+	price:number,
+},
+…
+]
+
+#output
+#generateOrderItem
+orderItem:[{
+	id:string,
+	name:string,
+	price:number,
+	count:number,
+},
+…
+]
+
+15min
+
+2#input
+orderItem:[{
+id:string,
+name:string,
+price:number,
+count:number,
+},
+…
+]
+
+Promotions
+[{
+	type:string,
+	items:[id:string, id:string,…],
+ },
+…
+ ]
+
+#output
+计算折扣商品并存储
+Promotions
+[{
+	id:string,
+	name:string,
+	price:number,
+	type:string
+ },
+…
+ ]
+
+15min
+
+3#input
+orderItem:[{
+id:string,
+name:string,
+price:number,
+count:number,
+},
+…
+]
+
+Promotions
+[{
+id:string,
+name:string,
+price:number,
+type:string
+ },
+…
+ ]
+
+折扣信息
+标题以及footer
+
+#output
+
+calculateTotalPrice:
+totalPrice:number
+
+calculatePromotionPrice:
+PromotionPrice:number
+
+Render
+orderInfo:string
+
+25min
